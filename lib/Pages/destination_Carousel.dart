@@ -18,7 +18,7 @@ class DestinationCarousel extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
+               const Text(
                   "Top Destinations",
                   style: TextStyle(
                       fontSize: 22.0,
@@ -27,7 +27,7 @@ class DestinationCarousel extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () => print("See All"),
-                  child: Text("See All",
+                  child: const Text("See All",
                       style: TextStyle(
                           fontSize: 16.0,
                           color: Color.fromARGB(135, 45, 160, 189),
